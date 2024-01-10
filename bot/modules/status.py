@@ -21,7 +21,7 @@ async def mirror_status(_, message):
         quote = Quote.print().split('―', 1)[0].strip().replace("“", "").replace("”", "")
 
         msg = f''
-        msg += 'No downloads are currently in progress.\n'
+        msg += 'No downloads.......\n'
         msg += f"\n<b>UPTM</b>: {currentTime}"
         msg += f"\n<b>FREE</b>: {free}"
 
